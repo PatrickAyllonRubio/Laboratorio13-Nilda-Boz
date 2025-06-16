@@ -12,7 +12,7 @@ public class ExcelExportService
 
                 worksheet.Cell(1, 1).Value = "Nombre";
                 worksheet.Cell(1, 2).Value = "Edad";
-                worksheet.Cell(2, 1).Value = "Patrick";
+                worksheet.Cell(2, 1).Value = "Nilda";
                 worksheet.Cell(2, 2).Value = 21;
 
                 workbook.SaveAs(filePath);
